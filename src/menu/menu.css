@@ -1,0 +1,77 @@
+
+
+  @media screen and (max-width: 390px) {
+   
+    .background{
+        display:flex;
+        flex-direction: column;
+      margin:auto;
+    }
+    .logo {
+        display:flex;
+        flex-direction: column;
+     margin: auto;
+        max-width: 370px;
+        text-align: center;
+        font-size: 60px;
+        color:rgb(250, 3, 3);
+        font-family: Harlekin;
+        border-top: 3px red solid;
+        margin-top: 5px;
+    border-bottom: 5px red solid;
+      
+      }
+
+    .logo-p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 16px;
+    }
+    .red-text{
+        color:rgb(250, 3, 3);
+        font-family: Harlekin;
+        font-size: 20px;
+    }
+    ul{
+        list-style: none;
+    }
+    .food-categories{
+        display:flex;
+        margin: auto;
+        padding: 20px;
+        margin-top: 5px;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 5px;
+       max-width: 330px;
+       justify-content: center;
+       background-color: rgb(240, 238, 235);
+       border-radius: 8px;
+      
+    }
+
+    li {
+        font-size: 16px;
+        background-color: #ffbaba;
+        border-radius: 7px;
+        padding: 1px 18px 1px 18px;
+    }
+    .breakfast-choice{
+        display: flex;
+        text-align: center;
+        gap: 10px;
+    }
+    .breakfast-box{
+        border: red solid 2px;
+        width: 80px;
+        height: 60px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description{
+        display:flex;
+        flex-direction: column;
+      margin:auto;
+    }
+    }

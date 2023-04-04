@@ -1,10 +1,15 @@
-.App {
+.body {
   text-align: center;
+  background: linear-gradient(to bottom, #ddd, #fff);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  text-align: center;
+  font-size: 80px;
+  color:rgb(250, 3, 3);
+  font-family: Harlekin;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
