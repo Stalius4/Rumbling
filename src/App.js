@@ -1,26 +1,26 @@
 
 
-import React, { useState, useEffect } from 'react';
-import FindCustomer from './findOne';
+import React from 'react';
+// import FindCustomer from './findOne';
 import Menu from './menu/menu';
 function MyComponent() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  useEffect(() => {
-    async function fetchData() {
-      const response = await fetch('http://127.0.0.1:5000/users/customers/visi');
-      const jsonData = await response.json();
-     setData(jsonData.members);
-      console.log(jsonData.members)
-    }
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     const response = await fetch('http://127.0.0.1:5000/users/customers/visi');
+  //     const jsonData = await response.json();
+  //    setData(jsonData.members);
+  //     console.log(jsonData.members)
+  //   }
   
-    fetchData();
+  //   fetchData();
 
 
 
 
 
-  }, []);
+  // }, []);
 
   return (
     <div className='body'>
