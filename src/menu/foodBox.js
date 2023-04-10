@@ -1,7 +1,7 @@
 
 import breakfast from "./images/breakfast.jpg"
 
-import { IoIosArrowUp } from 'react-icons/io';
+// import { IoIosArrowUp } from 'react-icons/io';
 import { IoIosArrowDown } from 'react-icons/io';
 
 function FoodBox() {
