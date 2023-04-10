@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:ital,wght@0,400;0,500;1,400&display=swap');
 
  
 
@@ -48,7 +48,8 @@
 
     .red-text{
         color:rgb(250, 3, 3);
-        font-family: Harlekin;
+        font-family: 'Dancing Script', cursive;
+
         font-size: 16px;
     }
     ul{
