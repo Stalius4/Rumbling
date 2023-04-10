@@ -1,6 +1,7 @@
 
 import './menu.css';
-import logo from "./logo.svg"
+import logo from "./images/logo.svg"
+import FoodBox from './foodBox';
 function Menu() {
 
 
@@ -15,8 +16,8 @@ function Menu() {
         </div> 
     
     </header>
-    <main>
-    
+    <main className='main'>
+    <FoodBox></FoodBox>
     </main>
     <footer>
      
