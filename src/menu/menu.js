@@ -2,6 +2,8 @@
 import './menu.css';
 import logo from "./images/logo.svg"
 import FoodBox from './foodBox';
+import breakfast from "./images/breakfast.jpg"
+import melt from "./images/melt.png"
 function Menu() {
 
 
@@ -17,7 +19,8 @@ function Menu() {
     
     </header>
     <main className='main'>
-    <FoodBox></FoodBox>
+    <FoodBox image={breakfast} name={"Breakfast"} description={""}></FoodBox>
+    <FoodBox image={melt} name={"Cheese melt baguettes"}></FoodBox>
     </main>
     <footer>
      
